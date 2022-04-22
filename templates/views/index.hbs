@@ -1,0 +1,32 @@
+{{> head }}
+<body>
+    <nav>
+        <div class="header">
+            <i class="fa-regular fa-hand-spock"></i>
+            <p>Yes, No判断メーカー</p>
+            <p id="version"></p>
+            <i class="fa-regular fa-hand-spock"></i>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>迷っていることを書こう</h1>
+
+        <div class="form-container">
+            <div class="form">
+                <input type="text" placeholder="YesかNoで答えられる内容にしてね" id="input">
+                <button id="submit" type="submit">submit</button>
+            </div>
+        </div>
+
+        <div id="answer-container">
+            <h3 id="content"></h3>
+            <div id="answer"></div>
+        </div>
+
+        <div class="list-container">
+            <ul id="save-lists">
+            </ul>
+        </div>
+
+    </div>
+{{> end }}
