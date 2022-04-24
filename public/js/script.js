@@ -23,9 +23,9 @@ function saveAnswer(answer) {
 
     listContainer.innerHTML = answers.map(ans => {
         if(ans.answer === 'Yes') { 
-            return `<li>${ans.content} ---> <span class="list-ans">${ans.answer}</span></li>`
+            return `<li>${ans.content}  <span class="list-ans">${ans.answer}</span></li>`
         } else {
-            return `<li>${ans.content} ---> <span class="list-ans no">${ans.answer}</span></li>`
+            return `<li>${ans.content}  <span class="list-ans no">${ans.answer}</span></li>`
         }})
         .join('')
 }
